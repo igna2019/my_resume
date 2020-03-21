@@ -1,35 +1,18 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
-
-Welcome igna2019,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: *Expose*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Expose*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+This is the first mini project of the course.
+These mini projects are not just the culmination of everything you've learned in the preceding module, but they're also intended as examples of how your milestone projects could function.
+In this case, we're going to bring together everything we've learned in this module and try to give a great user experience, too.
+Thinking about the UX planes from our previous section, we're now at the surface plane and the implementation stage.
+So let's have a quick look at what we're going to build.
+This is how our finished site will look.
+We have our homepage here, and it's also responsive.
+It looks good on a desktop, but it still looks good on a mobile device too.
+Going back to the desktop view, we can explore our home page, resume page, contact page, and our download CV link.
+Clicking on the resume page will give us a work history on the left hand side, displayed as a timeline, and the skill sets on the right.
+We also have progress bars where Rosie has given a rating of her skills in different areas.
+When we look at that on a mobile device, it also reduces very nicely and still looks good.
+Going back to the desktop view, we can click on our contact page.
+We see that we have three fields: two text fields and a text area where project ideas can be submitted.
+We also have a submit button to send the project request.
+And in the interactive frontend development module, we're going to wire this up to a JavaScript email API.
+We also have the option of downloading a CV for employers who want a more traditional representation of a resume
